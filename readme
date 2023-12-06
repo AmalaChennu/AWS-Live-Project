@@ -14,6 +14,17 @@ sudo python3 Empapp.py
 
 
 
+create database employee;
+
+use db employee;
+
+CREATE TABLE IF NOT EXISTS employee (
+    emp_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    pri_skill VARCHAR(50),
+    location VARCHAR(50)
+);
 
 
 # My Sql 
@@ -25,4 +36,6 @@ CREATE TABLE IF NOT EXISTS employee (
     pri_skill VARCHAR(50),
     location VARCHAR(50)
 );
+
+SELECT * FROM employee;
 
