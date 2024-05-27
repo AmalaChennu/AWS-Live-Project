@@ -16,7 +16,7 @@ sudo python3 EmpApp.py
 
 create database employee;
 
-use db employee;
+use employee;
 
 CREATE TABLE IF NOT EXISTS employee (
     emp_id INT PRIMARY KEY,
